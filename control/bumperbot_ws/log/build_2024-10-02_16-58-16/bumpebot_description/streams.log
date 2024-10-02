@@ -1,0 +1,5 @@
+[0.010s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumpebot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumpebot_description -- -j16 -l16
+[0.025s] [0mCMake Error: The source directory "/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumpebot_description" does not exist.
+[0.025s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.025s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.152s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumpebot_description' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumpebot_description -- -j16 -l16

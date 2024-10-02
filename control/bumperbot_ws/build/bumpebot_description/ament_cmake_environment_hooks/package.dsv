@@ -1,0 +1,4 @@
+source;share/bumpebot_description/local_setup.bash
+source;share/bumpebot_description/local_setup.dsv
+source;share/bumpebot_description/local_setup.sh
+source;share/bumpebot_description/local_setup.zsh

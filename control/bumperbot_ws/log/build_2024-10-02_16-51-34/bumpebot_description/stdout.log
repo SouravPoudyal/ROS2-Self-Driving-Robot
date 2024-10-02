@@ -1,0 +1,33 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumpebot_description
+-- Install configuration: ""
+-- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/meshes
+-- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/meshes/caster_front_link.STL
+-- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/meshes/can.STL
+-- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/meshes/wheel_right_link.STL
+-- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/meshes/wheel_left_link.STL
+-- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/meshes/base_link.STL
+-- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/meshes/caster_rear_link.STL
+-- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/meshes/imu_link.STL
+-- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/urdf
+-- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/urdf/bumperbot.urdf.xacro
+-- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/ament_index/resource_index/package_run_dependencies/bumpebot_description
+-- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/ament_index/resource_index/parent_prefix_path/bumpebot_description
+-- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/environment/ament_prefix_path.sh
+-- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/environment/path.sh
+-- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/environment/path.dsv
+-- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/local_setup.bash
+-- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/local_setup.sh
+-- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/local_setup.zsh
+-- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/local_setup.dsv
+-- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/package.dsv
+-- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/ament_index/resource_index/packages/bumpebot_description
+-- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/cmake/bumpebot_descriptionConfig.cmake
+-- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/cmake/bumpebot_descriptionConfig-version.cmake
+-- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumpebot_description/share/bumpebot_description/package.xml
