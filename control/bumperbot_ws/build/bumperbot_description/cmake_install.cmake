@@ -46,6 +46,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_description" TYPE DIRECTORY FILES
     "/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_description/meshes"
     "/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_description/urdf"
+    "/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_description/launch"
+    "/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_description/rviz"
     )
 endif()
 
