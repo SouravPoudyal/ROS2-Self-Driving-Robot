@@ -9,6 +9,9 @@
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
