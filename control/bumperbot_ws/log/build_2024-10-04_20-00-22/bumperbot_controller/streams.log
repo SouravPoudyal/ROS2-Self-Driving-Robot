@@ -1,0 +1,19 @@
+[0.012s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.051s] [ 50%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.055s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kbumperbot_controller/simple_controller.hpp: No such file or directory
+[0.056s]     1 | #include [01;31m[K"bumperbot_controller/simple_controller.hpp"[m[K
+[0.056s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.056s] compilation terminated.
+[0.056s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[0.056s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/simple_controller.dir/all] Error 2
+[0.056s] gmake[1]: *** Waiting for unfinished jobs....
+[0.186s] running egg_info
+[0.186s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.186s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.186s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.191s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.192s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.205s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[0.205s] gmake: *** [Makefile:146: all] Error 2
+[0.210s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
