@@ -1,0 +1,5 @@
+[0.013s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.052s] [ 50%] Built target simple_parameter
+[0.052s] [ 66%] Built target simple_subscriber
+[0.056s] [100%] Built target simple_publisher
+[0.168s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16

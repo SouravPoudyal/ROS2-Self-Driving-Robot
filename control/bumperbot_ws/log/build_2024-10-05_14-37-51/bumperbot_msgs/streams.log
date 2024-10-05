@@ -1,0 +1,20 @@
+[0.014s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs
+[0.018s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.098s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.113s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.115s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.118s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.130s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.151s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.155s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.155s]   rosidl_generate_interfaces() the passed file 'srv/GetTransform.srv' doesn't
+[0.155s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.155s]   '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_msgs'
+[0.155s] Call Stack (most recent call first):
+[0.155s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.155s] 
+[0.155s] [0m
+[0.155s] -- Configuring incomplete, errors occurred!
+[0.156s] See also "/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_msgs/CMakeFiles/CMakeOutput.log".
+[0.163s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs

@@ -1,0 +1,1 @@
+Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
