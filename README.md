@@ -2,7 +2,7 @@
 
 # Odometry Plot
 
-<img src="assets/trajectory.png" width="150">
+<img src="assets/trajectory.png" width="750">
 
 ## View the Video
 
