@@ -1,0 +1,24 @@
+[0.013s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_msgs -- -j16 -l16
+[0.059s] [ 10%] Built target bumperbot_msgs__rosidl_generator_c
+[0.066s] [ 12%] Built target bumperbot_msgs__cpp
+[0.073s] [ 23%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c
+[0.074s] [ 33%] Built target bumperbot_msgs__rosidl_typesupport_c
+[0.075s] [ 33%] Built target ament_cmake_python_copy_bumperbot_msgs
+[0.078s] [ 43%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c
+[0.079s] [ 53%] Built target bumperbot_msgs__rosidl_typesupport_cpp
+[0.081s] [ 64%] Built target bumperbot_msgs__rosidl_typesupport_introspection_cpp
+[0.083s] [ 74%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.100s] [ 74%] Built target bumperbot_msgs
+[0.119s] [ 76%] Built target bumperbot_msgs__py
+[0.143s] [ 84%] Built target bumperbot_msgs__rosidl_generator_py
+[0.163s] [ 89%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c__pyext
+[0.165s] [100%] Built target bumperbot_msgs__rosidl_typesupport_c__pyext
+[0.165s] [100%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.226s] running egg_info
+[0.227s] writing bumperbot_msgs.egg-info/PKG-INFO
+[0.227s] writing dependency_links to bumperbot_msgs.egg-info/dependency_links.txt
+[0.227s] writing top-level names to bumperbot_msgs.egg-info/top_level.txt
+[0.228s] reading manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[0.229s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[0.247s] [100%] Built target ament_cmake_python_build_bumperbot_msgs_egg
+[0.257s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_msgs -- -j16 -l16

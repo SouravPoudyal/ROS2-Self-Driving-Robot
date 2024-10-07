@@ -16,6 +16,7 @@
   <depend>eigen</depend>
   <depend>sensor_msgs</depend>
   <depend>nav-msgs</depend>
+  <depend>tf2_ros</depend>
 
   <exec_depend>tf_transformations</exec_depend>
   <exec_depend>ros2launch</exec_depend>  

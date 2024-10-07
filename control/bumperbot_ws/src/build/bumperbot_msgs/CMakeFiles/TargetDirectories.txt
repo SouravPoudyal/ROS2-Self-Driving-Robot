@@ -1,9 +1,0 @@
-/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/build/bumperbot_msgs/CMakeFiles/uninstall.dir
-/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/build/bumperbot_msgs/CMakeFiles/bumperbot_msgs_uninstall.dir
-/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/build/bumperbot_msgs/CMakeFiles/test.dir
-/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/build/bumperbot_msgs/CMakeFiles/edit_cache.dir
-/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/build/bumperbot_msgs/CMakeFiles/rebuild_cache.dir
-/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/build/bumperbot_msgs/CMakeFiles/list_install_components.dir
-/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/build/bumperbot_msgs/CMakeFiles/install.dir
-/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/build/bumperbot_msgs/CMakeFiles/install/local.dir
-/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/build/bumperbot_msgs/CMakeFiles/install/strip.dir

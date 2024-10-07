@@ -2,7 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float64MultiArray
-from geometry_msgs.msg import TwistStamped
+from geometry_msgs.msg import TwistStamped, TransformStamped
 import numpy as np
 from sensor_msgs.msg import JointState
 from rclpy.time import Time
@@ -10,6 +10,7 @@ from rclpy.constants import S_TO_NS
 import math
 from nav_msgs.msg import Odometry
 from tf_transformations import quaternion_from_euler
+from tf2_ros import TransformBroadcaster
 
 
 class SimpleController(Node):
@@ -51,6 +52,14 @@ class SimpleController(Node):
         self.odom_msg_.pose.pose.orientation.y = 0.0
         self.odom_msg_.pose.pose.orientation.z = 0.0
         self.odom_msg_.pose.pose.orientation.w = 1.0
+
+        # Fill the TF message
+        self.br_ = TransformBroadcaster(self)
+        self.transform_stamped_ = TransformStamped()
+        self.transform_stamped_.header.frame_id = "odom"
+        self.transform_stamped_.child_frame_id = "base_footprint"
+
+        self.prev_time_ = self.get_clock().now()  
 
 
     def velCallback(self, msg):
@@ -108,6 +117,16 @@ class SimpleController(Node):
         self.odom_msg_.twist.twist.angular.z = angular
         
         self.odom_pub_.publish(self.odom_msg_)
+
+        # TF
+        self.transform_stamped_.transform.translation.x = self.x_
+        self.transform_stamped_.transform.translation.y = self.y_
+        self.transform_stamped_.transform.rotation.x = q[0]
+        self.transform_stamped_.transform.rotation.y = q[1]
+        self.transform_stamped_.transform.rotation.z = q[2]
+        self.transform_stamped_.transform.rotation.w = q[3]
+        self.transform_stamped_.header.stamp = self.get_clock().now().to_msg()
+        self.br_.sendTransform(self.transform_stamped_)
 
         self.get_logger().info("linear: %f, angular: %f" % (linear, angular))
         self.get_logger().info("x: %f, y: %f, theta: %f" % (self.x_, self.y_, self.theta_))
