@@ -128,8 +128,8 @@ class SimpleController(Node):
         self.transform_stamped_.header.stamp = self.get_clock().now().to_msg()
         self.br_.sendTransform(self.transform_stamped_)
 
-        self.get_logger().info("linear: %f, angular: %f" % (linear, angular))
-        self.get_logger().info("x: %f, y: %f, theta: %f" % (self.x_, self.y_, self.theta_))
+        #self.get_logger().info("linear: %f, angular: %f" % (linear, angular))
+        #self.get_logger().info("x: %f, y: %f, theta: %f" % (self.x_, self.y_, self.theta_))
 
 def main():
     rclpy.init()
