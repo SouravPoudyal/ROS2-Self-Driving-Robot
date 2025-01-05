@@ -1,0 +1,58 @@
+[0.016s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target simple_controller[0m
+[0.066s] [  0%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.419s] running egg_info
+[0.419s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.420s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.420s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.423s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.424s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.461s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[7.195s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[7.530s] [100%] Built target simple_controller
+[7.539s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[7.563s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller
+[7.575s] -- Install configuration: ""
+[7.575s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[7.575s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[7.575s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[7.575s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[7.576s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.576s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.576s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[7.576s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[7.576s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py
+[7.576s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[7.577s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[7.610s] Listing '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[7.615s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/include/include
+[7.615s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[7.615s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[7.615s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[7.622s] -- Set runtime path of "/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+[7.623s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[7.623s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[7.623s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[7.623s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[7.623s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[7.623s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[7.623s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[7.623s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[7.623s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[7.624s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[7.624s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[7.624s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[7.624s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[7.624s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[7.624s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[7.624s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[7.624s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[7.624s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[7.624s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[7.624s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[7.624s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[7.624s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[7.624s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[7.624s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[7.625s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller

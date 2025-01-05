@@ -11,9 +11,9 @@ def imuCallback(imu):
     imu.header.frame_id = "base_footprint_ekf"
     imu_pub.publish(imu)
 
-def main():
+def main(args=None):
     global imu_pub
-    rclpy.init()
+    rclpy.init(args=args)
     node = Node("imu_republisher_node")
     time.sleep(1)
 

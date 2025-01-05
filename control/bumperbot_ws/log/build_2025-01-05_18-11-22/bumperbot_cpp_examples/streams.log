@@ -1,0 +1,76 @@
+[0.009s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.044s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.205s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.269s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.276s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.291s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.314s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.337s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.399s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.402s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.557s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.644s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.715s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.744s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.814s] -- Found bumperbot_msgs: 0.0.0 (/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake)
+[0.826s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.869s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.947s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.947s] -- Configured cppcheck include dirs: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_cpp_examples/include
+[0.947s] -- Configured cppcheck exclude dirs and/or files: 
+[0.949s] -- Added test 'lint_cmake' to check CMake code style
+[0.951s] -- Added test 'uncrustify' to check C / C++ code style
+[0.951s] -- Configured uncrustify additional arguments: 
+[0.951s] -- Added test 'xmllint' to check XML markup files
+[0.954s] -- Configuring done
+[1.011s] -- Generating done
+[1.014s] -- Build files have been written to: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples
+[1.040s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[1.040s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[1.041s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[1.041s] [35m[1mConsolidate compiler generated dependencies of target simple_service_client[0m
+[1.041s] [35m[1mConsolidate compiler generated dependencies of target simple_tf_kinematics[0m
+[1.042s] [35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[1.042s] [35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[1.046s] [  6%] [32mBuilding CXX object CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o[0m
+[1.056s] [ 18%] Built target simple_subscriber
+[1.059s] [ 37%] Built target simple_service_server
+[1.059s] [ 43%] Built target simple_publisher
+[1.059s] [ 68%] Built target simple_parameter
+[1.059s] [ 81%] Built target simple_tf_kinematics
+[1.059s] [ 81%] Built target simple_service_client
+[1.060s] [ 93%] Built target simple_turtlesim_kinematics
+[6.167s] [100%] [32m[1mLinking CXX executable simple_lifecycle_node[0m
+[6.392s] [100%] Built target simple_lifecycle_node
+[6.401s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[6.465s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples
+[6.476s] -- Install configuration: ""
+[6.476s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/include/include
+[6.476s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[6.476s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[6.476s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[6.476s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[6.476s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[6.476s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[6.477s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[6.477s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node
+[6.479s] -- Set runtime path of "/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node" to ""
+[6.480s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[6.481s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
+[6.482s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client
+[6.482s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[6.482s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[6.482s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[6.482s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[6.482s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[6.482s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[6.482s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[6.482s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[6.482s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[6.482s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[6.482s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[6.482s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[6.482s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[6.482s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[6.482s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[6.483s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples

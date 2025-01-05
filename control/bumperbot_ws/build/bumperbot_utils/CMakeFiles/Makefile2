@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/bui
 
 # The main recursive "all" target.
 all: CMakeFiles/ament_cmake_python_build_bumperbot_utils_egg.dir/all
+all: CMakeFiles/trajectory_plotter.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -75,6 +76,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/bumperbot_utils_uninstall.dir/clean
 clean: CMakeFiles/ament_cmake_python_copy_bumperbot_utils.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_bumperbot_utils_egg.dir/clean
+clean: CMakeFiles/trajectory_plotter.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -180,6 +182,32 @@ ament_cmake_python_build_bumperbot_utils_egg: CMakeFiles/ament_cmake_python_buil
 CMakeFiles/ament_cmake_python_build_bumperbot_utils_egg.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_bumperbot_utils_egg.dir/build.make CMakeFiles/ament_cmake_python_build_bumperbot_utils_egg.dir/clean
 .PHONY : CMakeFiles/ament_cmake_python_build_bumperbot_utils_egg.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/trajectory_plotter.dir
+
+# All Build rule for target.
+CMakeFiles/trajectory_plotter.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_plotter.dir/build.make CMakeFiles/trajectory_plotter.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_plotter.dir/build.make CMakeFiles/trajectory_plotter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils/CMakeFiles --progress-num=1,2 "Built target trajectory_plotter"
+.PHONY : CMakeFiles/trajectory_plotter.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/trajectory_plotter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/trajectory_plotter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils/CMakeFiles 0
+.PHONY : CMakeFiles/trajectory_plotter.dir/rule
+
+# Convenience name for target.
+trajectory_plotter: CMakeFiles/trajectory_plotter.dir/rule
+.PHONY : trajectory_plotter
+
+# clean rule for target.
+CMakeFiles/trajectory_plotter.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_plotter.dir/build.make CMakeFiles/trajectory_plotter.dir/clean
+.PHONY : CMakeFiles/trajectory_plotter.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,0 +1,24 @@
+[0.015s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target simple_controller[0m
+[0.069s] [  0%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.267s] running egg_info
+[0.267s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.267s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.268s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.270s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.270s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.297s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[2.256s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::SimpleController(const string&)[m[K’:
+[2.256s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:9:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::NodeOptions[m[K’ has no member named ‘[01m[Kclock_type[m[K’
+[2.256s]     9 |     : Node(name, rclcpp::NodeOptions().use_intra_process_comms(true).[01;31m[Kclock_type[m[K(RCL_ROS_TIME)))
+[2.256s]       |                                                                      [01;31m[K^~~~~~~~~~[m[K
+[2.256s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:9:95:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K)[m[K’ token
+[2.256s]     9 |     : Node(name, rclcpp::NodeOptions().use_intra_process_comms(true).clock_type(RCL_ROS_TIME))[01;31m[K)[m[K
+[2.256s]       |                                                                                               [01;31m[K^[m[K
+[2.256s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K At global scope:
+[2.256s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:9:95:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[2.667s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[2.668s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/simple_controller.dir/all] Error 2
+[2.668s] gmake: *** [Makefile:146: all] Error 2
+[2.670s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller -- -j16 -l16

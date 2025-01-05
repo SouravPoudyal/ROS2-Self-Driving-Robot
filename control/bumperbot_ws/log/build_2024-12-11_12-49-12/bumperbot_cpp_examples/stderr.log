@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:40 (install):
+  install TARGETS given target "simple_tF_kinematics" which does not exist.
+
+[0m
+gmake: *** [Makefile:390: cmake_check_build_system] Error 1

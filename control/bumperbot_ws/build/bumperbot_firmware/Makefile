@@ -223,6 +223,117 @@ ament_cmake_python_build_bumperbot_firmware_egg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/build.make CMakeFiles/ament_cmake_python_build_bumperbot_firmware_egg.dir/build
 .PHONY : ament_cmake_python_build_bumperbot_firmware_egg/fast
 
+#=============================================================================
+# Target rules for targets named simple_serial_transmitter
+
+# Build rule for target.
+simple_serial_transmitter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_serial_transmitter
+.PHONY : simple_serial_transmitter
+
+# fast build rule for target.
+simple_serial_transmitter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/build
+.PHONY : simple_serial_transmitter/fast
+
+#=============================================================================
+# Target rules for targets named simple_serial_receiver
+
+# Build rule for target.
+simple_serial_receiver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_serial_receiver
+.PHONY : simple_serial_receiver
+
+# fast build rule for target.
+simple_serial_receiver/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_receiver.dir/build.make CMakeFiles/simple_serial_receiver.dir/build
+.PHONY : simple_serial_receiver/fast
+
+#=============================================================================
+# Target rules for targets named bumperbot_firmware
+
+# Build rule for target.
+bumperbot_firmware: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bumperbot_firmware
+.PHONY : bumperbot_firmware
+
+# fast build rule for target.
+bumperbot_firmware/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_firmware.dir/build.make CMakeFiles/bumperbot_firmware.dir/build
+.PHONY : bumperbot_firmware/fast
+
+src/bumperbot_interface.o: src/bumperbot_interface.cpp.o
+.PHONY : src/bumperbot_interface.o
+
+# target to build an object file
+src/bumperbot_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_firmware.dir/build.make CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o
+.PHONY : src/bumperbot_interface.cpp.o
+
+src/bumperbot_interface.i: src/bumperbot_interface.cpp.i
+.PHONY : src/bumperbot_interface.i
+
+# target to preprocess a source file
+src/bumperbot_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_firmware.dir/build.make CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.i
+.PHONY : src/bumperbot_interface.cpp.i
+
+src/bumperbot_interface.s: src/bumperbot_interface.cpp.s
+.PHONY : src/bumperbot_interface.s
+
+# target to generate assembly for a file
+src/bumperbot_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bumperbot_firmware.dir/build.make CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.s
+.PHONY : src/bumperbot_interface.cpp.s
+
+src/simple_serial_receiver.o: src/simple_serial_receiver.cpp.o
+.PHONY : src/simple_serial_receiver.o
+
+# target to build an object file
+src/simple_serial_receiver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_receiver.dir/build.make CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o
+.PHONY : src/simple_serial_receiver.cpp.o
+
+src/simple_serial_receiver.i: src/simple_serial_receiver.cpp.i
+.PHONY : src/simple_serial_receiver.i
+
+# target to preprocess a source file
+src/simple_serial_receiver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_receiver.dir/build.make CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.i
+.PHONY : src/simple_serial_receiver.cpp.i
+
+src/simple_serial_receiver.s: src/simple_serial_receiver.cpp.s
+.PHONY : src/simple_serial_receiver.s
+
+# target to generate assembly for a file
+src/simple_serial_receiver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_receiver.dir/build.make CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.s
+.PHONY : src/simple_serial_receiver.cpp.s
+
+src/simple_serial_transmitter.o: src/simple_serial_transmitter.cpp.o
+.PHONY : src/simple_serial_transmitter.o
+
+# target to build an object file
+src/simple_serial_transmitter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o
+.PHONY : src/simple_serial_transmitter.cpp.o
+
+src/simple_serial_transmitter.i: src/simple_serial_transmitter.cpp.i
+.PHONY : src/simple_serial_transmitter.i
+
+# target to preprocess a source file
+src/simple_serial_transmitter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.i
+.PHONY : src/simple_serial_transmitter.cpp.i
+
+src/simple_serial_transmitter.s: src/simple_serial_transmitter.cpp.s
+.PHONY : src/simple_serial_transmitter.s
+
+# target to generate assembly for a file
+src/simple_serial_transmitter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_serial_transmitter.dir/build.make CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.s
+.PHONY : src/simple_serial_transmitter.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,6 +351,18 @@ help:
 	@echo "... ament_cmake_python_copy_bumperbot_firmware"
 	@echo "... bumperbot_firmware_uninstall"
 	@echo "... uninstall"
+	@echo "... bumperbot_firmware"
+	@echo "... simple_serial_receiver"
+	@echo "... simple_serial_transmitter"
+	@echo "... src/bumperbot_interface.o"
+	@echo "... src/bumperbot_interface.i"
+	@echo "... src/bumperbot_interface.s"
+	@echo "... src/simple_serial_receiver.o"
+	@echo "... src/simple_serial_receiver.i"
+	@echo "... src/simple_serial_receiver.s"
+	@echo "... src/simple_serial_transmitter.o"
+	@echo "... src/simple_serial_transmitter.i"
+	@echo "... src/simple_serial_transmitter.s"
 .PHONY : help
 
 

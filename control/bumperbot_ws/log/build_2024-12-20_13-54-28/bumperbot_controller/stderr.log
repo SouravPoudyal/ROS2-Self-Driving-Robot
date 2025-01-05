@@ -1,0 +1,16 @@
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::SimpleController(const string&)[m[K’:
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:9:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::NodeOptions[m[K’ has no member named ‘[01m[Kclock_type[m[K’
+    9 |     : Node(name, rclcpp::NodeOptions().use_intra_process_comms(true).[01;31m[Kclock_type[m[K(RCL_ROS_TIME)))
+      |                                                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:9:95:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K)[m[K’ token
+    9 |     : Node(name, rclcpp::NodeOptions().use_intra_process_comms(true).clock_type(RCL_ROS_TIME))[01;31m[K)[m[K
+      |                                                                                               [01;31m[K^[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K At global scope:
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:9:95:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::jointCallback(const JointState&)[m[K’:
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:50:72:[m[K [01;31m[Kerror: [m[K‘[01m[KClockType[m[K’ is not a member of ‘[01m[Krclcpp::Time[m[K’
+   50 |   rclcpp::Time msg_time = rclcpp::Time(msg.header.stamp, rclcpp::Time::[01;31m[KClockType[m[K::RCL_ROS_TIME);
+      |                                                                        [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

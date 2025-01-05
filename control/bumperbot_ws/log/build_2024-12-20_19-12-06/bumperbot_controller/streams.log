@@ -1,0 +1,103 @@
+[0.013s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.031s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.127s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.147s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.149s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.153s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.189s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.190s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.272s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.304s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.304s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.312s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.325s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.334s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[0.338s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.433s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.479s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.479s] -- Configured cppcheck include dirs: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/include
+[0.479s] -- Configured cppcheck exclude dirs and/or files: 
+[0.480s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.480s] -- Added test 'lint_cmake' to check CMake code style
+[0.480s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.482s] -- Added test 'uncrustify' to check C / C++ code style
+[0.482s] -- Configured uncrustify additional arguments: 
+[0.482s] -- Added test 'xmllint' to check XML markup files
+[0.483s] -- Configuring done
+[0.495s] -- Generating done
+[0.497s] -- Build files have been written to: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller
+[0.521s] [35m[1mConsolidate compiler generated dependencies of target simple_controller[0m
+[0.536s] [  0%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.538s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.689s] running egg_info
+[0.690s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.690s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.690s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.691s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.692s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.710s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[2.182s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::SimpleController(const string&)[m[K’:
+[2.182s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kodom_msg_[m[K’?
+[2.182s]    30 |     [01;31m[Kodom_pub_[m[K = create_publisher<nav_msgs::msg::Odometry>("/bumperbot_controller/odom", 10);
+[2.182s]       |     [01;31m[K^~~~~~~~~[m[K
+[2.182s]       |     [32m[Kodom_msg_[m[K
+[2.182s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:34:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kheader[m[K’
+[2.182s]    34 |     odom_msg_.[01;31m[Kheader[m[K.frame_id = "odom";
+[2.182s]       |               [01;31m[K^~~~~~[m[K
+[2.182s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:35:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kchild_frame_id[m[K’
+[2.182s]    35 |     odom_msg_.[01;31m[Kchild_frame_id[m[K = "base_footprint";
+[2.182s]       |               [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.182s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:36:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.182s]    36 |     odom_msg_.[01;31m[Kpose[m[K.pose.orentation.x = 0.0;
+[2.182s]       |               [01;31m[K^~~~[m[K
+[2.182s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:37:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.183s]    37 |     odom_msg_.[01;31m[Kpose[m[K.pose.orentation.y = 0.0;
+[2.183s]       |               [01;31m[K^~~~[m[K
+[2.183s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:38:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.183s]    38 |     odom_msg_.[01;31m[Kpose[m[K.pose.orentation.z = 0.0;
+[2.183s]       |               [01;31m[K^~~~[m[K
+[2.183s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:39:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.183s]    39 |     odom_msg_.[01;31m[Kpose[m[K.pose.orentation.w = 1.0;
+[2.183s]       |               [01;31m[K^~~~[m[K
+[2.201s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::jointCallback(const JointState&)[m[K’:
+[2.201s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:85:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass tf2::Quaternion[m[K’ has no member named ‘[01m[KsetRYP[m[K’; did you mean ‘[01m[KsetRPY[m[K’?
+[2.201s]    85 |   q.[01;31m[KsetRYP[m[K(0, 0, theta_);
+[2.201s]       |     [01;31m[K^~~~~~[m[K
+[2.201s]       |     [32m[KsetRPY[m[K
+[2.201s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:86:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.201s]    86 |   odom_msg_.[01;31m[Kpose[m[K.pose.orientation.x = q.x();
+[2.201s]       |             [01;31m[K^~~~[m[K
+[2.201s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:87:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.201s]    87 |   odom_msg_.[01;31m[Kpose[m[K.pose.orientation.y = q.y();
+[2.201s]       |             [01;31m[K^~~~[m[K
+[2.201s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:88:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.201s]    88 |   odom_msg_.[01;31m[Kpose[m[K.pose.orientation.z = q.z();
+[2.201s]       |             [01;31m[K^~~~[m[K
+[2.201s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:89:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.201s]    89 |   odom_msg_.[01;31m[Kpose[m[K.pose.orientation.w = q.w();
+[2.201s]       |             [01;31m[K^~~~[m[K
+[2.201s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:90:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kheader[m[K’
+[2.201s]    90 |   odom_msg_.[01;31m[Kheader[m[K.stamp = get_clock()->now();
+[2.201s]       |             [01;31m[K^~~~~~[m[K
+[2.201s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:91:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.201s]    91 |   odom_msg_.[01;31m[Kpose[m[K.pose.position.x = x_;
+[2.201s]       |             [01;31m[K^~~~[m[K
+[2.201s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:92:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.201s]    92 |   odom_msg_.[01;31m[Kpose[m[K.pose.position.y = y_;
+[2.201s]       |             [01;31m[K^~~~[m[K
+[2.201s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:93:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Ktwist[m[K’
+[2.201s]    93 |   odom_msg_.[01;31m[Ktwist[m[K.twist.linear.x = linear;
+[2.201s]       |             [01;31m[K^~~~~[m[K
+[2.201s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:94:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SharedPtr = class std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Odometry_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Ktwist[m[K’
+[2.201s]    94 |   odom_msg_.[01;31m[Ktwist[m[K.twist.angular.x = angular;
+[2.201s]       |             [01;31m[K^~~~~[m[K
+[2.206s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:96:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kodom_msg_[m[K’?
+[2.206s]    96 |   [01;31m[Kodom_pub_[m[K->publish(odom_msg_);
+[2.206s]       |   [01;31m[K^~~~~~~~~[m[K
+[2.206s]       |   [32m[Kodom_msg_[m[K
+[3.984s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[3.984s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/simple_controller.dir/all] Error 2
+[3.985s] gmake: *** [Makefile:146: all] Error 2
+[3.986s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller -- -j16 -l16

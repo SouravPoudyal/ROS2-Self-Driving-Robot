@@ -1,0 +1,10 @@
+[0.014s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_firmware -- -j16 -l16
+[0.055s] [100%] Built target bumperbot_firmware
+[0.055s] [100%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.210s] running egg_info
+[0.211s] writing bumperbot_firmware.egg-info/PKG-INFO
+[0.211s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[0.211s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[0.212s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.212s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.231s] [100%] Built target ament_cmake_python_build_bumperbot_firmware_egg

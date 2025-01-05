@@ -1,0 +1,17 @@
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::SimpleController(const string&)[m[K’:
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_msg_[m[K’ was not declared in this scope; did you mean ‘[01m[Kodom_msgs_[m[K’?
+   34 |     [01;31m[Kodom_msg_[m[K.header.frame_id = "odom";
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[Kodom_msgs_[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::jointCallback(const JointState&)[m[K’:
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:85:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass tf2::Quaternion[m[K’ has no member named ‘[01m[KsetRYP[m[K’; did you mean ‘[01m[KsetRPY[m[K’?
+   85 |   q.[01;31m[KsetRYP[m[K(0, 0, theta_);
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[KsetRPY[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:86:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_msg_[m[K’ was not declared in this scope; did you mean ‘[01m[Kodom_msgs_[m[K’?
+   86 |   [01;31m[Kodom_msg_[m[K.pose.pose.orientation.x = q.x();
+      |   [01;31m[K^~~~~~~~~[m[K
+      |   [32m[Kodom_msgs_[m[K
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,57 @@
+[0.015s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_firmware -- -j16 -l16
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target simple_serial_transmitter[0m
+[0.059s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[0.062s] [ 75%] Built target bumperbot_firmware
+[0.067s] [ 75%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.288s] running egg_info
+[0.289s] writing bumperbot_firmware.egg-info/PKG-INFO
+[0.289s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[0.289s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[0.291s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.291s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[0.318s] [ 75%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[5.060s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[5.266s] [100%] Built target simple_serial_transmitter
+[5.276s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_firmware -- -j16 -l16
+[5.304s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_firmware
+[5.310s] -- Install configuration: ""
+[5.310s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[5.310s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[5.310s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info
+[5.310s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[5.310s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.310s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.310s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[5.310s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware
+[5.310s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py
+[5.310s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py
+[5.310s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py
+[5.330s] Listing '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware'...
+[5.333s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[5.335s] -- Set runtime path of "/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter" to ""
+[5.335s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[5.335s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[5.335s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[5.335s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[5.335s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[5.336s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[5.336s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[5.338s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_firmware

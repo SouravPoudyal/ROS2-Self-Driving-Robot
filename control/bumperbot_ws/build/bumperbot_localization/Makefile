@@ -223,6 +223,80 @@ ament_cmake_python_build_bumperbot_localization_egg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_bumperbot_localization_egg.dir/build.make CMakeFiles/ament_cmake_python_build_bumperbot_localization_egg.dir/build
 .PHONY : ament_cmake_python_build_bumperbot_localization_egg/fast
 
+#=============================================================================
+# Target rules for targets named kalman_filter
+
+# Build rule for target.
+kalman_filter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kalman_filter
+.PHONY : kalman_filter
+
+# fast build rule for target.
+kalman_filter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/build
+.PHONY : kalman_filter/fast
+
+#=============================================================================
+# Target rules for targets named imu_republisher
+
+# Build rule for target.
+imu_republisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imu_republisher
+.PHONY : imu_republisher
+
+# fast build rule for target.
+imu_republisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_republisher.dir/build.make CMakeFiles/imu_republisher.dir/build
+.PHONY : imu_republisher/fast
+
+src/imu_republisher.o: src/imu_republisher.cpp.o
+.PHONY : src/imu_republisher.o
+
+# target to build an object file
+src/imu_republisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_republisher.dir/build.make CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o
+.PHONY : src/imu_republisher.cpp.o
+
+src/imu_republisher.i: src/imu_republisher.cpp.i
+.PHONY : src/imu_republisher.i
+
+# target to preprocess a source file
+src/imu_republisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_republisher.dir/build.make CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.i
+.PHONY : src/imu_republisher.cpp.i
+
+src/imu_republisher.s: src/imu_republisher.cpp.s
+.PHONY : src/imu_republisher.s
+
+# target to generate assembly for a file
+src/imu_republisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_republisher.dir/build.make CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.s
+.PHONY : src/imu_republisher.cpp.s
+
+src/kalman_filter.o: src/kalman_filter.cpp.o
+.PHONY : src/kalman_filter.o
+
+# target to build an object file
+src/kalman_filter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o
+.PHONY : src/kalman_filter.cpp.o
+
+src/kalman_filter.i: src/kalman_filter.cpp.i
+.PHONY : src/kalman_filter.i
+
+# target to preprocess a source file
+src/kalman_filter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.i
+.PHONY : src/kalman_filter.cpp.i
+
+src/kalman_filter.s: src/kalman_filter.cpp.s
+.PHONY : src/kalman_filter.s
+
+# target to generate assembly for a file
+src/kalman_filter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kalman_filter.dir/build.make CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.s
+.PHONY : src/kalman_filter.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,6 +314,14 @@ help:
 	@echo "... ament_cmake_python_copy_bumperbot_localization"
 	@echo "... bumperbot_localization_uninstall"
 	@echo "... uninstall"
+	@echo "... imu_republisher"
+	@echo "... kalman_filter"
+	@echo "... src/imu_republisher.o"
+	@echo "... src/imu_republisher.i"
+	@echo "... src/imu_republisher.s"
+	@echo "... src/kalman_filter.o"
+	@echo "... src/kalman_filter.i"
+	@echo "... src/kalman_filter.s"
 .PHONY : help
 
 

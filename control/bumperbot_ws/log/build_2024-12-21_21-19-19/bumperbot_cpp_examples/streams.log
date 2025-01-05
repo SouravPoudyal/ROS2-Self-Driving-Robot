@@ -1,0 +1,8 @@
+[0.006s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.050s] [ 14%] Built target simple_publisher
+[0.052s] [ 42%] Built target simple_subscriber
+[0.052s] [ 42%] Built target simple_service_server
+[0.055s] [ 57%] Built target simple_tf_kinematics
+[0.055s] [ 71%] Built target simple_service_client
+[0.056s] [ 85%] Built target simple_turtlesim_kinematics
+[0.057s] [100%] Built target simple_parameter

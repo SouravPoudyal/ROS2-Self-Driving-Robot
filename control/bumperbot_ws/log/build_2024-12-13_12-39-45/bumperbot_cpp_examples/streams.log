@@ -1,0 +1,22 @@
+[0.012s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target simple_tf_kinematics[0m
+[0.056s] [ 14%] Built target simple_subscriber
+[0.057s] [ 28%] Built target simple_publisher
+[0.058s] [ 42%] Built target simple_parameter
+[0.063s] [ 71%] Built target simple_service_client
+[0.063s] [ 71%] Built target simple_turtlesim_kinematics
+[0.065s] [ 85%] Built target simple_service_server
+[0.071s] [ 92%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[1.719s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:[m[K In member function ‘[01m[Kvoid SimpleTfKinematics::timerCallback()[m[K’:
+[1.719s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:69:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kroations_counter_[m[K’ was not declared in this scope; did you mean ‘[01m[Krotations_counter_[m[K’?
+[1.719s]    69 |     if([01;31m[Kroations_counter_[m[K >= 100)
+[1.719s]       |        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.719s]       |        [32m[Krotations_counter_[m[K
+[1.722s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_cpp_examples/src/simple_tf_kinematics.cpp:71:9:[m[K [01;31m[Kerror: [m[K‘[01m[Korientations_increment_[m[K’ was not declared in this scope; did you mean ‘[01m[Korientation_increment_[m[K’?
+[1.722s]    71 |         [01;31m[Korientations_increment_[m[K = orientations_increment_.inverse();
+[1.722s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.722s]       |         [32m[Korientation_increment_[m[K
+[2.351s] gmake[2]: *** [CMakeFiles/simple_tf_kinematics.dir/build.make:76: CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o] Error 1
+[2.351s] gmake[1]: *** [CMakeFiles/Makefile2:253: CMakeFiles/simple_tf_kinematics.dir/all] Error 2
+[2.352s] gmake: *** [Makefile:146: all] Error 2
+[2.353s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples' returned '2': AMENT_PREFIX_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16

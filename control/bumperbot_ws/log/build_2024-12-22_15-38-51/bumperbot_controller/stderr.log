@@ -1,0 +1,36 @@
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:[m[K In member function ‘[01m[Kvoid NoisyController::jointCallback(const JointState&)[m[K’:
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:48:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kdefault_random_engine[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   48 |   std::[01;31m[Kdefault_random_engine[m[K noise_generator(seed);
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:49:8:[m[K [01;31m[Kerror: [m[K‘[01m[Knormal_distribution[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kuniform_int_distribution[m[K’?
+   49 |   std::[01;31m[Knormal_distribution[m[K<double> left_encoder_noise(0.0, 0.005);
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |        [32m[Kuniform_int_distribution[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:49:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+   49 |   std::normal_distribution<[01;31m[Kdouble[m[K> left_encoder_noise(0.0, 0.005);
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:50:8:[m[K [01;31m[Kerror: [m[K‘[01m[Knormal_distribution[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kuniform_int_distribution[m[K’?
+   50 |   std::[01;31m[Knormal_distribution[m[K<double> right_encoder_noise(0.0, 0.005);
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |        [32m[Kuniform_int_distribution[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:50:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+   50 |   std::normal_distribution<[01;31m[Kdouble[m[K> right_encoder_noise(0.0, 0.005);
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:51:43:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(const _position_type {aka const std::vector<double, std::allocator<double> >}) (int)[m[K’
+   51 |   double wheel_encoder_left = [01;31m[Kmsg.position(1)[m[K + left_encoder_noise(noise_generator);
+      |                               [01;31m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:51:68:[m[K [01;31m[Kerror: [m[K‘[01m[Knoise_generator[m[K’ was not declared in this scope
+   51 |   double wheel_encoder_left = msg.position(1) + left_encoder_noise([01;31m[Knoise_generator[m[K);
+      |                                                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:51:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_encoder_noise[m[K’ was not declared in this scope
+   51 |   double wheel_encoder_left = msg.position(1) + [01;31m[Kleft_encoder_noise[m[K(noise_generator);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:52:44:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(const _position_type {aka const std::vector<double, std::allocator<double> >}) (int)[m[K’
+   52 |   double wheel_encoder_right = [01;31m[Kmsg.position(0)[m[K + right_encoder_noise(noise_generator);
+      |                                [01;31m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/noisy_controller.cpp:52:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_encoder_noise[m[K’ was not declared in this scope
+   52 |   double wheel_encoder_right = msg.position(0) + [01;31m[Kright_encoder_noise[m[K(noise_generator);
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/noisy_controller.dir/build.make:76: CMakeFiles/noisy_controller.dir/src/noisy_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/noisy_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

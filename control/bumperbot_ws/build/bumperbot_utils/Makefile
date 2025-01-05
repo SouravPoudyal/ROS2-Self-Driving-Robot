@@ -223,6 +223,43 @@ ament_cmake_python_build_bumperbot_utils_egg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_bumperbot_utils_egg.dir/build.make CMakeFiles/ament_cmake_python_build_bumperbot_utils_egg.dir/build
 .PHONY : ament_cmake_python_build_bumperbot_utils_egg/fast
 
+#=============================================================================
+# Target rules for targets named trajectory_plotter
+
+# Build rule for target.
+trajectory_plotter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 trajectory_plotter
+.PHONY : trajectory_plotter
+
+# fast build rule for target.
+trajectory_plotter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_plotter.dir/build.make CMakeFiles/trajectory_plotter.dir/build
+.PHONY : trajectory_plotter/fast
+
+src/trajectory_plotter.o: src/trajectory_plotter.cpp.o
+.PHONY : src/trajectory_plotter.o
+
+# target to build an object file
+src/trajectory_plotter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_plotter.dir/build.make CMakeFiles/trajectory_plotter.dir/src/trajectory_plotter.cpp.o
+.PHONY : src/trajectory_plotter.cpp.o
+
+src/trajectory_plotter.i: src/trajectory_plotter.cpp.i
+.PHONY : src/trajectory_plotter.i
+
+# target to preprocess a source file
+src/trajectory_plotter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_plotter.dir/build.make CMakeFiles/trajectory_plotter.dir/src/trajectory_plotter.cpp.i
+.PHONY : src/trajectory_plotter.cpp.i
+
+src/trajectory_plotter.s: src/trajectory_plotter.cpp.s
+.PHONY : src/trajectory_plotter.s
+
+# target to generate assembly for a file
+src/trajectory_plotter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trajectory_plotter.dir/build.make CMakeFiles/trajectory_plotter.dir/src/trajectory_plotter.cpp.s
+.PHONY : src/trajectory_plotter.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,6 +277,10 @@ help:
 	@echo "... ament_cmake_python_copy_bumperbot_utils"
 	@echo "... bumperbot_utils_uninstall"
 	@echo "... uninstall"
+	@echo "... trajectory_plotter"
+	@echo "... src/trajectory_plotter.o"
+	@echo "... src/trajectory_plotter.i"
+	@echo "... src/trajectory_plotter.s"
 .PHONY : help
 
 

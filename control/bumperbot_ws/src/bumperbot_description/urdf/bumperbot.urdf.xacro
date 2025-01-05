@@ -155,7 +155,8 @@
     <child link="caster_rear_link" />
     <axis xyz="0 0 0" />
   </joint>
-  <link name="can_link">
+  
+  <!--  <link name="can_link">
     <visual>
         <origin rpy="1.57 0 0" xyz="-0.03 0.03 0"/>
         <geometry>
@@ -168,7 +169,8 @@
       <parent link="base_link"/>
       <child link="can_link"/>
       <origin rpy="0 0 0" xyz="0 0 0.078"/>
-  </joint>
+  </joint> -->
+
 
   <link name="imu_link">
     <inetrial>
@@ -192,7 +194,7 @@
     </collosion>
   </link>
   <joint name="imu_joint" type="fixed">
-    <origin xyz="0 0 0.07" rpy="3.141 0 0"/>
+    <origin xyz="0 0 0.07" rpy="0 0 0"/>
     <parent link="base_link"/>
     <child link="imu_link"/>
     <axis xyz="0 0 0"/>

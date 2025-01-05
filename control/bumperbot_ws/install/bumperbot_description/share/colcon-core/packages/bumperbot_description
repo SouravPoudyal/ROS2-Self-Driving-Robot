@@ -1,1 +1,1 @@
-gazebo_plugins:gazebo_ros:gazebo_ros_pkgs:joint_state_publisher_gui:robot_state_publisher:ros2launch:rviz2:urdf
+gazebo_plugins:gazebo_ros:gazebo_ros_pkgs:joint_state_publisher_gui:robot_state_publisher:ros2launch:ros_gz_bridge:rviz2:urdf

@@ -22,8 +22,19 @@ def noisy_controller(context, *args, **kwargs):
         ],
         condition=IfCondition(use_python)
     )
+    noisy_controller_cpp= Node(
+        package="bumperbot_controller",
+        executable="noisy_controller",
+        parameters=[
+            {"wheel_radius":wheel_radius + wheel_radius_error,
+            "wheel_separation": wheel_separation + wheel_separation_error}
+        ],
+        condition=UnlessCondition(use_python)
+    )
     return [
-        noisy_controller_py
+        noisy_controller_py,
+        noisy_controller_cpp
+
     ]
 
 def generate_launch_description():
@@ -65,7 +76,7 @@ def generate_launch_description():
             "joint_state_broadcaster",
             "--controller-manager",
             "/controller_manager",
-        ],
+        ]
     )
 
     wheel_controller_spawner = Node(

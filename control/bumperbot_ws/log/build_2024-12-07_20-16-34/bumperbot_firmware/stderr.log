@@ -1,0 +1,8 @@
+In file included from [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:1[m[K:
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_firmware/include/bumperbot_firmware/bumperbot_interface.hpp:3:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_lifecycle/node_interface/lifecycle_node_interface.hpp: No such file or directory
+    3 | #include [01;31m[K<rclcpp_lifecycle/node_interface/lifecycle_node_interface.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/bumperbot_firmware.dir/build.make:76: CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/bumperbot_firmware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

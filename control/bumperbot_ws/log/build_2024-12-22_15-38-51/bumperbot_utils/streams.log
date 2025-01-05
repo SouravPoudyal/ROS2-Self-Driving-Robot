@@ -1,0 +1,38 @@
+[0.023s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils -- -j16 -l16
+[0.055s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.190s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.190s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.244s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.249s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.260s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.288s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.341s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.345s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.448s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.511s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.607s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.665s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.665s] -- Configured cppcheck include dirs: 
+[0.665s] -- Configured cppcheck exclude dirs and/or files: 
+[0.665s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.666s] -- Added test 'lint_cmake' to check CMake code style
+[0.666s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.668s] -- Added test 'uncrustify' to check C / C++ code style
+[0.668s] -- Configured uncrustify additional arguments: 
+[0.668s] -- Added test 'xmllint' to check XML markup files
+[0.668s] -- Configuring done
+[0.684s] -- Generating done
+[0.687s] -- Build files have been written to: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils
+[0.708s] [35m[1mConsolidate compiler generated dependencies of target trajectory_plotter[0m
+[0.722s] [  0%] Built target ament_cmake_python_copy_bumperbot_utils
+[0.722s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_plotter.dir/src/trajectory_plotter.cpp.o[0m
+[0.886s] running egg_info
+[0.887s] writing bumperbot_utils.egg-info/PKG-INFO
+[0.887s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[0.887s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[0.888s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[0.889s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[0.906s] [ 50%] Built target ament_cmake_python_build_bumperbot_utils_egg
+[5.638s] [100%] [32m[1mLinking CXX executable trajectory_plotter[0m
+[5.949s] [100%] Built target trajectory_plotter

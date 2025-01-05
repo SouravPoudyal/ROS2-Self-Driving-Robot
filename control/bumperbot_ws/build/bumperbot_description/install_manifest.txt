@@ -20,7 +20,7 @@
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model.config
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_3.sdf
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_2.sdf
-/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz
+/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display_.rviz
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh

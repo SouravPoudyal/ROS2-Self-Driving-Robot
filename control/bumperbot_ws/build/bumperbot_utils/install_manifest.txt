@@ -7,6 +7,7 @@
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/trajectory_plotter.py
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/__init__.py
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/trajectory_plotter.py
+/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/trajectory_plotter
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh

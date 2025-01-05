@@ -20,7 +20,7 @@ class SimpleLifecycleNode(Node):
         self.get_logger().info("Lifecycle node on_shutdown() called")
         return TransitionCallbackReturn.SUCCESS
 
-    def on_cleanup(self, state:State) -> TransitionCallbackReturn:
+    def on_cleanup(self, state: State) -> TransitionCallbackReturn:
         self.destroy_subscription(self.sub_)
         self.get_logger().info("Lifecycle node on_cleanup() called")
         return TransitionCallbackReturn.SUCCESS

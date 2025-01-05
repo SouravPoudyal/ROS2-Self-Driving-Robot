@@ -1,0 +1,43 @@
+In file included from [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:1[m[K:
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/simple_controller.hpp:30:12:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble SimpleController::wheel_separation_[m[K’
+   30 |     double [01;31m[Kwheel_separation_[m[K;
+      |            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/simple_controller.hpp:26:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble SimpleController::wheel_separation_[m[K’
+   26 |     double [01;36m[Kwheel_separation_[m[K;
+      |            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/simple_controller.hpp:31:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[KEigen::Matrix2d SimpleController::speed_conversion_[m[K’
+   31 |     Eigen::Matrix2d [01;31m[Kspeed_conversion_[m[K;
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/simple_controller.hpp:27:21:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[KEigen::Matrix2d SimpleController::speed_conversion_[m[K’
+   27 |     Eigen::Matrix2d [01;36m[Kspeed_conversion_[m[K;
+      |                     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::SimpleController(const string&)[m[K’:
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:10:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+   10 |     , left_wheel_prev_pos_(0.0)[01;31m[K;[m[K
+      |                                [01;31m[K^[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K At global scope:
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:11:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K,[m[K’ token
+   11 |     [01;31m[K,[m[K right_wheel_prev_pos_(0.0);
+      |     [01;31m[K^[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:11:28:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+   11 |     , right_wheel_prev_pos_[01;31m[K([m[K0.0);
+      |                            [01;31m[K^[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:13:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   13 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:43:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msg[m[K’ does not name a type
+   43 | void SimpleController::jointCallback(const [01;31m[Ksensor_msg[m[K::msg::JointState & msg)
+      |                                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:43:59:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   43 | void SimpleController::jointCallback(const sensor_msg::msg[01;31m[K::[m[KJointState & msg)
+      |                                                           [01;31m[K^~[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:43:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   43 | void SimpleController::jointCallback[34m[K([m[Kconst sensor_msg::msg[01;31m[K:[m[K[32m[K:[m[KJointState & msg)
+      |                                     [34m[K~[m[K                     [01;31m[K^[m[K[32m[K~[m[K
+      |                                                           [32m[K)[m[K
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:43:59:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+   43 | void SimpleController::jointCallback(const sensor_msg::msg[01;31m[K::[m[KJointState & msg)
+      |                                                           [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:19 (pkg_check_module):
+  Unknown CMake command "pkg_check_module".
+
+[0m
+gmake: *** [Makefile:254: cmake_check_build_system] Error 1

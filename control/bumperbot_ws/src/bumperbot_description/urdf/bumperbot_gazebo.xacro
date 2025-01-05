@@ -67,6 +67,8 @@
       <parameters>$(find bumperbot_controller)/config/bumperbot_controllers.yaml</parameters>
     </plugin>
   </gazebo>
+
+  <!--IMU-->
   <gazebo reference="imu_link">
     <sensor name="imu" type="imu">
       <always_on>true</always_on>

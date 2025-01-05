@@ -1,0 +1,17 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_bumperbot_firmware
+running egg_info
+writing bumperbot_firmware.egg-info/PKG-INFO
+writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+In file included from [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_firmware/src/bumperbot_interface.cpp:1[m[K:
+[01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_firmware/include/bumperbot_firmware/bumperbot_interface.hpp:3:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_lifecycle/node_interface/lifecycle_node_interface.hpp: No such file or directory
+    3 | #include [01;31m[K<rclcpp_lifecycle/node_interface/lifecycle_node_interface.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[ 50%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+gmake[2]: *** [CMakeFiles/bumperbot_firmware.dir/build.make:76: CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/bumperbot_firmware.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

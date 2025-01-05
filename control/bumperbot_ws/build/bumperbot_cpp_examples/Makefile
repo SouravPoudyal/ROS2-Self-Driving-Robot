@@ -236,6 +236,95 @@ simple_parameter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_parameter.dir/build.make CMakeFiles/simple_parameter.dir/build
 .PHONY : simple_parameter/fast
 
+#=============================================================================
+# Target rules for targets named simple_turtlesim_kinematics
+
+# Build rule for target.
+simple_turtlesim_kinematics: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_turtlesim_kinematics
+.PHONY : simple_turtlesim_kinematics
+
+# fast build rule for target.
+simple_turtlesim_kinematics/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_turtlesim_kinematics.dir/build.make CMakeFiles/simple_turtlesim_kinematics.dir/build
+.PHONY : simple_turtlesim_kinematics/fast
+
+#=============================================================================
+# Target rules for targets named simple_tf_kinematics
+
+# Build rule for target.
+simple_tf_kinematics: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_tf_kinematics
+.PHONY : simple_tf_kinematics
+
+# fast build rule for target.
+simple_tf_kinematics/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_tf_kinematics.dir/build.make CMakeFiles/simple_tf_kinematics.dir/build
+.PHONY : simple_tf_kinematics/fast
+
+#=============================================================================
+# Target rules for targets named simple_service_server
+
+# Build rule for target.
+simple_service_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_service_server
+.PHONY : simple_service_server
+
+# fast build rule for target.
+simple_service_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/build
+.PHONY : simple_service_server/fast
+
+#=============================================================================
+# Target rules for targets named simple_service_client
+
+# Build rule for target.
+simple_service_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_service_client
+.PHONY : simple_service_client
+
+# fast build rule for target.
+simple_service_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/build
+.PHONY : simple_service_client/fast
+
+#=============================================================================
+# Target rules for targets named simple_lifecycle_node
+
+# Build rule for target.
+simple_lifecycle_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_lifecycle_node
+.PHONY : simple_lifecycle_node
+
+# fast build rule for target.
+simple_lifecycle_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_lifecycle_node.dir/build.make CMakeFiles/simple_lifecycle_node.dir/build
+.PHONY : simple_lifecycle_node/fast
+
+src/simple_lifecycle_node.o: src/simple_lifecycle_node.cpp.o
+.PHONY : src/simple_lifecycle_node.o
+
+# target to build an object file
+src/simple_lifecycle_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_lifecycle_node.dir/build.make CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o
+.PHONY : src/simple_lifecycle_node.cpp.o
+
+src/simple_lifecycle_node.i: src/simple_lifecycle_node.cpp.i
+.PHONY : src/simple_lifecycle_node.i
+
+# target to preprocess a source file
+src/simple_lifecycle_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_lifecycle_node.dir/build.make CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.i
+.PHONY : src/simple_lifecycle_node.cpp.i
+
+src/simple_lifecycle_node.s: src/simple_lifecycle_node.cpp.s
+.PHONY : src/simple_lifecycle_node.s
+
+# target to generate assembly for a file
+src/simple_lifecycle_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_lifecycle_node.dir/build.make CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.s
+.PHONY : src/simple_lifecycle_node.cpp.s
+
 src/simple_parameter.o: src/simple_parameter.cpp.o
 .PHONY : src/simple_parameter.o
 
@@ -284,6 +373,54 @@ src/simple_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_publisher.dir/build.make CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.s
 .PHONY : src/simple_publisher.cpp.s
 
+src/simple_service_client.o: src/simple_service_client.cpp.o
+.PHONY : src/simple_service_client.o
+
+# target to build an object file
+src/simple_service_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o
+.PHONY : src/simple_service_client.cpp.o
+
+src/simple_service_client.i: src/simple_service_client.cpp.i
+.PHONY : src/simple_service_client.i
+
+# target to preprocess a source file
+src/simple_service_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.i
+.PHONY : src/simple_service_client.cpp.i
+
+src/simple_service_client.s: src/simple_service_client.cpp.s
+.PHONY : src/simple_service_client.s
+
+# target to generate assembly for a file
+src/simple_service_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.s
+.PHONY : src/simple_service_client.cpp.s
+
+src/simple_service_server.o: src/simple_service_server.cpp.o
+.PHONY : src/simple_service_server.o
+
+# target to build an object file
+src/simple_service_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o
+.PHONY : src/simple_service_server.cpp.o
+
+src/simple_service_server.i: src/simple_service_server.cpp.i
+.PHONY : src/simple_service_server.i
+
+# target to preprocess a source file
+src/simple_service_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.i
+.PHONY : src/simple_service_server.cpp.i
+
+src/simple_service_server.s: src/simple_service_server.cpp.s
+.PHONY : src/simple_service_server.s
+
+# target to generate assembly for a file
+src/simple_service_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.s
+.PHONY : src/simple_service_server.cpp.s
+
 src/simple_subscriber.o: src/simple_subscriber.cpp.o
 .PHONY : src/simple_subscriber.o
 
@@ -308,6 +445,54 @@ src/simple_subscriber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subscriber.dir/build.make CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.s
 .PHONY : src/simple_subscriber.cpp.s
 
+src/simple_tf_kinematics.o: src/simple_tf_kinematics.cpp.o
+.PHONY : src/simple_tf_kinematics.o
+
+# target to build an object file
+src/simple_tf_kinematics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_tf_kinematics.dir/build.make CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o
+.PHONY : src/simple_tf_kinematics.cpp.o
+
+src/simple_tf_kinematics.i: src/simple_tf_kinematics.cpp.i
+.PHONY : src/simple_tf_kinematics.i
+
+# target to preprocess a source file
+src/simple_tf_kinematics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_tf_kinematics.dir/build.make CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.i
+.PHONY : src/simple_tf_kinematics.cpp.i
+
+src/simple_tf_kinematics.s: src/simple_tf_kinematics.cpp.s
+.PHONY : src/simple_tf_kinematics.s
+
+# target to generate assembly for a file
+src/simple_tf_kinematics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_tf_kinematics.dir/build.make CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.s
+.PHONY : src/simple_tf_kinematics.cpp.s
+
+src/simple_turtlesim_kinematics.o: src/simple_turtlesim_kinematics.cpp.o
+.PHONY : src/simple_turtlesim_kinematics.o
+
+# target to build an object file
+src/simple_turtlesim_kinematics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_turtlesim_kinematics.dir/build.make CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o
+.PHONY : src/simple_turtlesim_kinematics.cpp.o
+
+src/simple_turtlesim_kinematics.i: src/simple_turtlesim_kinematics.cpp.i
+.PHONY : src/simple_turtlesim_kinematics.i
+
+# target to preprocess a source file
+src/simple_turtlesim_kinematics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_turtlesim_kinematics.dir/build.make CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.i
+.PHONY : src/simple_turtlesim_kinematics.cpp.i
+
+src/simple_turtlesim_kinematics.s: src/simple_turtlesim_kinematics.cpp.s
+.PHONY : src/simple_turtlesim_kinematics.s
+
+# target to generate assembly for a file
+src/simple_turtlesim_kinematics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_turtlesim_kinematics.dir/build.make CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.s
+.PHONY : src/simple_turtlesim_kinematics.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -323,18 +508,38 @@ help:
 	@echo "... test"
 	@echo "... bumperbot_cpp_examples_uninstall"
 	@echo "... uninstall"
+	@echo "... simple_lifecycle_node"
 	@echo "... simple_parameter"
 	@echo "... simple_publisher"
+	@echo "... simple_service_client"
+	@echo "... simple_service_server"
 	@echo "... simple_subscriber"
+	@echo "... simple_tf_kinematics"
+	@echo "... simple_turtlesim_kinematics"
+	@echo "... src/simple_lifecycle_node.o"
+	@echo "... src/simple_lifecycle_node.i"
+	@echo "... src/simple_lifecycle_node.s"
 	@echo "... src/simple_parameter.o"
 	@echo "... src/simple_parameter.i"
 	@echo "... src/simple_parameter.s"
 	@echo "... src/simple_publisher.o"
 	@echo "... src/simple_publisher.i"
 	@echo "... src/simple_publisher.s"
+	@echo "... src/simple_service_client.o"
+	@echo "... src/simple_service_client.i"
+	@echo "... src/simple_service_client.s"
+	@echo "... src/simple_service_server.o"
+	@echo "... src/simple_service_server.i"
+	@echo "... src/simple_service_server.s"
 	@echo "... src/simple_subscriber.o"
 	@echo "... src/simple_subscriber.i"
 	@echo "... src/simple_subscriber.s"
+	@echo "... src/simple_tf_kinematics.o"
+	@echo "... src/simple_tf_kinematics.i"
+	@echo "... src/simple_tf_kinematics.s"
+	@echo "... src/simple_turtlesim_kinematics.o"
+	@echo "... src/simple_turtlesim_kinematics.i"
+	@echo "... src/simple_turtlesim_kinematics.s"
 .PHONY : help
 
 

@@ -1,0 +1,7 @@
+[ 14%] Built target simple_turtlesim_kinematics
+[ 21%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[ 35%] Built target simple_subscriber
+[ 64%] Built target simple_parameter
+[ 64%] Built target simple_service_client
+[ 92%] Built target simple_service_server
+[ 92%] Built target simple_publisher

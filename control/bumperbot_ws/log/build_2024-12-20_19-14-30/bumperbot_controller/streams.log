@@ -1,0 +1,37 @@
+[0.025s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target simple_controller[0m
+[0.086s] [  0%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.102s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.414s] running egg_info
+[0.414s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.414s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.414s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.416s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.416s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.456s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[2.099s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In constructor ‘[01m[KSimpleController::SimpleController(const string&)[m[K’:
+[2.099s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:36:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korentation[m[K’; did you mean ‘[01m[Korientation[m[K’?
+[2.099s]    36 |     odom_msg_.pose.pose.[01;31m[Korentation[m[K.x = 0.0;
+[2.099s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[2.099s]       |                         [32m[Korientation[m[K
+[2.099s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:37:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korentation[m[K’; did you mean ‘[01m[Korientation[m[K’?
+[2.099s]    37 |     odom_msg_.pose.pose.[01;31m[Korentation[m[K.y = 0.0;
+[2.100s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[2.100s]       |                         [32m[Korientation[m[K
+[2.100s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:38:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korentation[m[K’; did you mean ‘[01m[Korientation[m[K’?
+[2.100s]    38 |     odom_msg_.pose.pose.[01;31m[Korentation[m[K.z = 0.0;
+[2.100s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[2.100s]       |                         [32m[Korientation[m[K
+[2.100s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:39:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _pose_type = struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Korentation[m[K’; did you mean ‘[01m[Korientation[m[K’?
+[2.100s]    39 |     odom_msg_.pose.pose.[01;31m[Korentation[m[K.w = 1.0;
+[2.100s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[2.100s]       |                         [32m[Korientation[m[K
+[2.121s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::jointCallback(const JointState&)[m[K’:
+[2.121s] [01m[K/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:85:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass tf2::Quaternion[m[K’ has no member named ‘[01m[KsetRYP[m[K’; did you mean ‘[01m[KsetRPY[m[K’?
+[2.121s]    85 |   q.[01;31m[KsetRYP[m[K(0, 0, theta_);
+[2.121s]       |     [01;31m[K^~~~~~[m[K
+[2.121s]       |     [32m[KsetRPY[m[K
+[4.098s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[4.098s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/simple_controller.dir/all] Error 2
+[4.098s] gmake: *** [Makefile:146: all] Error 2
+[4.100s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_controller -- -j16 -l16

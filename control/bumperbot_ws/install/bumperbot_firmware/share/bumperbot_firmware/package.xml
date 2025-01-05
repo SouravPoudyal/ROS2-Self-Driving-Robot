@@ -11,6 +11,11 @@
   <buildtool_depend>ament_cmake_python</buildtool_depend>
 
   <depend>rclpy</depend>
+  <depend>hardware_interface</depend>
+  <depend>libserial-dev</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>pluginlib</depend>
+  <depend>rclcpp</depend>
 
   <exec_depend>python3-serial</exec_depend>
 
