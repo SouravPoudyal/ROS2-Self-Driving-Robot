@@ -10,7 +10,7 @@ def generate_launch_description():
 
     use_python_arg = DeclareLaunchArgument(
         "use_python",
-        default_value="True",
+        default_value="False",
     )
 
     use_python = LaunchConfiguration("use_python")
@@ -19,7 +19,7 @@ def generate_launch_description():
         package="tf2_ros",
         executable="static_transform_publisher",
         arguments=["--x", "0", "--y", "0","--z", "0.103",
-                   "--qx", "1", "--qy", "0", "--qz", "0", "--qw", "0",
+                   "--qx", "0", "--qy", "0", "--qz", "0", "--qw", "1",
                    "--frame-id", "base_footprint_ekf",
                    "--child-frame-id", "imu_link_ekf"],
     )

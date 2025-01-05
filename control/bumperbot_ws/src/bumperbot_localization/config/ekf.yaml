@@ -11,11 +11,13 @@ ekf_filter_node:
     odom0: bumperbot_controller/odom_noisy
     odom0_config: [false, false, false,
                    false, false, false,
-                   true,  false,  false,
+                   true,  true,  false,
                    false, false, false,
                    false, false, false]
 
     odom0_differential: true
+    odom0_pose_use_child_frame: false
+    
     imu0: imu_ekf
 
     imu0_config: [false, false, false,
@@ -25,6 +27,7 @@ ekf_filter_node:
                   true,  false, false]     
 
     imu0_differential: true
+    imu0_pose_use_child_frame: false
 
     process_noise_covariance: [0.05,   0.0,    0.0,    0.0,    0.0,    0.0,    0.0,     0.0,     0.0,    0.0,    0.0,    0.0,    0.0,    0.0,    0.0,
                               0.0,    0.05,   0.0,    0.0,    0.0,    0.0,    0.0,     0.0,     0.0,    0.0,    0.0,    0.0,    0.0,    0.0,    0.0,
