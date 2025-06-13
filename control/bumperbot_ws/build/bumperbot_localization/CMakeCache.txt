@@ -433,9 +433,6 @@ rclcpp_DIR:PATH=/opt/ros/humble/share/rclcpp/cmake
 //The directory containing a CMake configuration file for rclpy.
 rclpy_DIR:PATH=/opt/ros/humble/share/rclpy/cmake
 
-//The directory containing a CMake configuration file for rclpy_.
-rclpy__DIR:PATH=rclpy__DIR-NOTFOUND
-
 //The directory containing a CMake configuration file for rcpputils.
 rcpputils_DIR:PATH=/opt/ros/humble/share/rcpputils/cmake
 

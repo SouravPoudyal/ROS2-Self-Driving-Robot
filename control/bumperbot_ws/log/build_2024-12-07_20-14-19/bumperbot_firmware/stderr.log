@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:64 (ament_export_dependicies):
-  Unknown CMake command "ament_export_dependicies".
-
-[0m
-gmake: *** [Makefile:254: cmake_check_build_system] Error 1

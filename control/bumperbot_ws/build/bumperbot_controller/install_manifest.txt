@@ -11,6 +11,8 @@
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_republisher
+/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/keyboard_teleop
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
 /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml

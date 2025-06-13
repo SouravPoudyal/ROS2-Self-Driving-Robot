@@ -224,6 +224,32 @@ noisy_controller/fast:
 .PHONY : noisy_controller/fast
 
 #=============================================================================
+# Target rules for targets named twist_republisher
+
+# Build rule for target.
+twist_republisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 twist_republisher
+.PHONY : twist_republisher
+
+# fast build rule for target.
+twist_republisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twist_republisher.dir/build.make CMakeFiles/twist_republisher.dir/build
+.PHONY : twist_republisher/fast
+
+#=============================================================================
+# Target rules for targets named keyboard_teleop
+
+# Build rule for target.
+keyboard_teleop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 keyboard_teleop
+.PHONY : keyboard_teleop
+
+# fast build rule for target.
+keyboard_teleop/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_teleop.dir/build.make CMakeFiles/keyboard_teleop.dir/build
+.PHONY : keyboard_teleop/fast
+
+#=============================================================================
 # Target rules for targets named ament_cmake_python_copy_bumperbot_controller
 
 # Build rule for target.
@@ -248,6 +274,30 @@ ament_cmake_python_build_bumperbot_controller_egg: cmake_check_build_system
 ament_cmake_python_build_bumperbot_controller_egg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_bumperbot_controller_egg.dir/build.make CMakeFiles/ament_cmake_python_build_bumperbot_controller_egg.dir/build
 .PHONY : ament_cmake_python_build_bumperbot_controller_egg/fast
+
+src/keyboard_teleop.o: src/keyboard_teleop.cpp.o
+.PHONY : src/keyboard_teleop.o
+
+# target to build an object file
+src/keyboard_teleop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_teleop.dir/build.make CMakeFiles/keyboard_teleop.dir/src/keyboard_teleop.cpp.o
+.PHONY : src/keyboard_teleop.cpp.o
+
+src/keyboard_teleop.i: src/keyboard_teleop.cpp.i
+.PHONY : src/keyboard_teleop.i
+
+# target to preprocess a source file
+src/keyboard_teleop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_teleop.dir/build.make CMakeFiles/keyboard_teleop.dir/src/keyboard_teleop.cpp.i
+.PHONY : src/keyboard_teleop.cpp.i
+
+src/keyboard_teleop.s: src/keyboard_teleop.cpp.s
+.PHONY : src/keyboard_teleop.s
+
+# target to generate assembly for a file
+src/keyboard_teleop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard_teleop.dir/build.make CMakeFiles/keyboard_teleop.dir/src/keyboard_teleop.cpp.s
+.PHONY : src/keyboard_teleop.cpp.s
 
 src/noisy_controller.o: src/noisy_controller.cpp.o
 .PHONY : src/noisy_controller.o
@@ -297,6 +347,30 @@ src/simple_controller.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_controller.dir/build.make CMakeFiles/simple_controller.dir/src/simple_controller.cpp.s
 .PHONY : src/simple_controller.cpp.s
 
+src/twist_republisher.o: src/twist_republisher.cpp.o
+.PHONY : src/twist_republisher.o
+
+# target to build an object file
+src/twist_republisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twist_republisher.dir/build.make CMakeFiles/twist_republisher.dir/src/twist_republisher.cpp.o
+.PHONY : src/twist_republisher.cpp.o
+
+src/twist_republisher.i: src/twist_republisher.cpp.i
+.PHONY : src/twist_republisher.i
+
+# target to preprocess a source file
+src/twist_republisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twist_republisher.dir/build.make CMakeFiles/twist_republisher.dir/src/twist_republisher.cpp.i
+.PHONY : src/twist_republisher.cpp.i
+
+src/twist_republisher.s: src/twist_republisher.cpp.s
+.PHONY : src/twist_republisher.s
+
+# target to generate assembly for a file
+src/twist_republisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twist_republisher.dir/build.make CMakeFiles/twist_republisher.dir/src/twist_republisher.cpp.s
+.PHONY : src/twist_republisher.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -314,14 +388,22 @@ help:
 	@echo "... ament_cmake_python_copy_bumperbot_controller"
 	@echo "... bumperbot_controller_uninstall"
 	@echo "... uninstall"
+	@echo "... keyboard_teleop"
 	@echo "... noisy_controller"
 	@echo "... simple_controller"
+	@echo "... twist_republisher"
+	@echo "... src/keyboard_teleop.o"
+	@echo "... src/keyboard_teleop.i"
+	@echo "... src/keyboard_teleop.s"
 	@echo "... src/noisy_controller.o"
 	@echo "... src/noisy_controller.i"
 	@echo "... src/noisy_controller.s"
 	@echo "... src/simple_controller.o"
 	@echo "... src/simple_controller.i"
 	@echo "... src/simple_controller.s"
+	@echo "... src/twist_republisher.o"
+	@echo "... src/twist_republisher.i"
+	@echo "... src/twist_republisher.s"
 .PHONY : help
 
 

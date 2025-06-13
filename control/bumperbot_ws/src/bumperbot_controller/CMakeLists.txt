@@ -23,6 +23,15 @@ ament_target_dependencies(simple_controller rclcpp geometry_msgs std_msgs ${Eige
 add_executable(noisy_controller src/noisy_controller.cpp)
 ament_target_dependencies(noisy_controller rclcpp geometry_msgs std_msgs ${Eigen_LIBRARIES} sensor_msgs nav_msgs tf2 tf2_ros)
 
+add_executable(twist_republisher src/twist_republisher.cpp)
+ament_target_dependencies(twist_republisher rclcpp geometry_msgs)
+
+# Add your executable
+add_executable(keyboard_teleop src/keyboard_teleop.cpp)
+
+# Link the executable with the necessary libraries
+ament_target_dependencies(keyboard_teleop rclcpp geometry_msgs)
+
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
@@ -43,6 +52,16 @@ install(TARGETS
 )
 install(TARGETS
   noisy_controller
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS 
+  twist_republisher 
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS 
+  keyboard_teleop 
   DESTINATION lib/${PROJECT_NAME}
 )
 

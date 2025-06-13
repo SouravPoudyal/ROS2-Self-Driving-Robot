@@ -1,9 +1,0 @@
-[ 14%] Built target simple_publisher
-[ 28%] Built target simple_tf_kinematics
-[ 42%] Built target simple_turtlesim_kinematics
-[ 71%] Built target simple_parameter
-[ 71%] Built target simple_service_server
-[ 78%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
-[ 92%] Built target simple_service_client
-[100%] [32m[1mLinking CXX executable simple_subscriber[0m
-[100%] Built target simple_subscriber

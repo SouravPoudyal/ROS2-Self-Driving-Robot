@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:21 (amenet_target_dependecies):
-  Unknown CMake command "amenet_target_dependecies".
-
-[0m
-gmake: *** [Makefile:254: cmake_check_build_system] Error 1

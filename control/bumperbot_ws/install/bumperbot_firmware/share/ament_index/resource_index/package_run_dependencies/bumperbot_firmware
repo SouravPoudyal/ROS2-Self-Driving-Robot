@@ -1,1 +1,1 @@
-rclpy;hardware_interface;libserial-dev;rclcpp_lifecycle;pluginlib;rclcpp;python3-serial;ament_lint_auto;ament_lint_common
+rclpy;hardware_interface;libserial-dev;rclcpp_lifecycle;pluginlib;rclcpp;std_msgs;python3-serial;ament_lint_auto;ament_lint_common

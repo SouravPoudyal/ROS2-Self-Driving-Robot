@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:28 (install):
-  install TARGETS given unknown argument "DESTINITION".
-
-[0m
-gmake: *** [Makefile:295: cmake_check_build_system] Error 1

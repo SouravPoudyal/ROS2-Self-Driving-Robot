@@ -1,0 +1,97 @@
+[0.017s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_utils -DCMAKE_INSTALL_PREFIX=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.098s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting C compiler ABI info
+[0.169s] -- Detecting C compiler ABI info - done
+[0.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.177s] -- Detecting CXX compiler ABI info
+[0.240s] -- Detecting CXX compiler ABI info - done
+[0.246s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.246s] -- Detecting CXX compile features
+[0.246s] -- Detecting CXX compile features - done
+[0.247s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.362s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.437s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[0.438s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.470s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.473s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.483s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.517s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.602s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.611s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.692s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.711s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.749s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.757s] -- Looking for pthread.h
+[0.818s] -- Looking for pthread.h - found
+[0.819s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.871s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.872s] -- Found Threads: TRUE  
+[0.918s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.998s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.047s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.047s] -- Configured cppcheck include dirs: 
+[1.047s] -- Configured cppcheck exclude dirs and/or files: 
+[1.048s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.048s] -- Added test 'lint_cmake' to check CMake code style
+[1.048s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.050s] -- Added test 'uncrustify' to check C / C++ code style
+[1.050s] -- Configured uncrustify additional arguments: 
+[1.050s] -- Added test 'xmllint' to check XML markup files
+[1.050s] -- Configuring done
+[1.055s] -- Generating done
+[1.058s] -- Build files have been written to: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils
+[1.065s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_utils -DCMAKE_INSTALL_PREFIX=/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils
+[1.066s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils -- -j16 -l16
+[1.106s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_plotter.dir/src/trajectory_plotter.cpp.o[0m
+[1.107s] [ 50%] Built target ament_cmake_python_copy_bumperbot_utils
+[1.410s] running egg_info
+[1.410s] creating bumperbot_utils.egg-info
+[1.410s] writing bumperbot_utils.egg-info/PKG-INFO
+[1.410s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[1.411s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[1.411s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[1.413s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[1.413s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[1.445s] [ 50%] Built target ament_cmake_python_build_bumperbot_utils_egg
+[10.736s] [100%] [32m[1mLinking CXX executable trajectory_plotter[0m
+[11.151s] [100%] Built target trajectory_plotter
+[11.163s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils -- -j16 -l16
+[11.164s] Invoking command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils
+[11.170s] -- Install configuration: ""
+[11.171s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.sh
+[11.171s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.dsv
+[11.171s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info
+[11.171s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[11.171s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.171s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.171s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/top_level.txt
+[11.171s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils
+[11.171s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/trajectory_plotter.py
+[11.171s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/__init__.py
+[11.196s] Listing '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils'...
+[11.196s] Compiling '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/__init__.py'...
+[11.196s] Compiling '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/trajectory_plotter.py'...
+[11.200s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/trajectory_plotter.py
+[11.200s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/trajectory_plotter
+[11.202s] -- Set runtime path of "/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/trajectory_plotter" to ""
+[11.202s] -- Up-to-date: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils
+[11.202s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[11.202s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[11.202s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[11.202s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[11.202s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[11.202s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[11.202s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[11.202s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[11.202s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[11.203s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[11.203s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[11.203s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[11.203s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[11.203s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[11.203s] -- Installing: /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[11.205s] Invoked command in '/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/build/bumperbot_utils

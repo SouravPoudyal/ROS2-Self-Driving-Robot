@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:70 (file):
-  file INSTALL cannot find
-  "/home/sourav/ROS2-Self-Driving-Robot/control/bumperbot_ws/src/bumperbot_localization/bumperbot_localization/imu_replubisher.py":
-  No such file or directory.
-
-[0m

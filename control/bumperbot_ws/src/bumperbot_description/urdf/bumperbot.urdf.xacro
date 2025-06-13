@@ -2,6 +2,9 @@
 
 <robot name="bumperbot" xmlns:xacro="http://ros.org/wiki/xacro">
 
+  <!-- Load Simulated or Real Hardware Interfaces -->
+  <xacro:arg name="is_sim" default="true"/>
+
   <!-- Include Gazebo Parameters -->
   <xacro:include filename="$(find bumperbot_description)/urdf/bumperbot_gazebo.xacro" />
 
@@ -156,7 +159,7 @@
     <axis xyz="0 0 0" />
   </joint>
   
-  <!--  <link name="can_link">
+  <link name="can_link">
     <visual>
         <origin rpy="1.57 0 0" xyz="-0.03 0.03 0"/>
         <geometry>
@@ -169,7 +172,7 @@
       <parent link="base_link"/>
       <child link="can_link"/>
       <origin rpy="0 0 0" xyz="0 0 0.078"/>
-  </joint> -->
+  </joint>
 
 
   <link name="imu_link">
