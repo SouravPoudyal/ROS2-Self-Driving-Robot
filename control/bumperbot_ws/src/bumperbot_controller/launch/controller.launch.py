@@ -41,7 +41,7 @@ def generate_launch_description():
 
     use_simple_controller_arg = DeclareLaunchArgument(
         "use_simple_controller",
-        default_value="False",
+        default_value="True",
     )
     use_python_arg = DeclareLaunchArgument(
         "use_python",

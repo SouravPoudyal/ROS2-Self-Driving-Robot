@@ -27,7 +27,7 @@ NoisyController::NoisyController(const std::string& name)
     odom_pub_ = create_publisher<nav_msgs::msg::Odometry>("/bumperbot_controller/odom_noisy", 10);
 
     odom_msg_.header.frame_id = "odom";
-    odom_msg_.child_frame_id = "base_footprint_ekf";
+    odom_msg_.child_frame_id = "base_footprint_noisy";
     odom_msg_.pose.pose.orientation.x = 0.0;
     odom_msg_.pose.pose.orientation.y = 0.0;
     odom_msg_.pose.pose.orientation.z = 0.0;

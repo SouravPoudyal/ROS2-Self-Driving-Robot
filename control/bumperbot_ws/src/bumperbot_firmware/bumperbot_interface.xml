@@ -1,7 +1,7 @@
 <library path = "bumperbot_firmware">
     <class name="bumperbot_firmware/BumperbotInterface"
-           type ="bumperbot_firmware::BumperbotInterface"
-           base_class_type = "hardware_interface::SystemInterface">
+           type ="bumperbot_firmware::BumerbotInterface"
+           base_class_type = "hardware_interface::systemInterface">
         <description>
             Bumperbot hardware interface
         </description>

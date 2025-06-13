@@ -13,10 +13,10 @@ from tf_transformations import quaternion_from_euler
 from tf2_ros import TransformBroadcaster
 
 
-class NoisyController(Node):
+class SimpleController(Node):
 
     def __init__(self):
-        super().__init__("noisy_controller")
+        super().__init__("simple_controller")
         self.declare_parameter("wheel_radius", 0.033)
         self.declare_parameter("wheel_separation", 0.17)
 
@@ -119,7 +119,7 @@ class NoisyController(Node):
 def main():
     rclpy.init()
 
-    noisy_controller = NoisyController()
+    noisy_controller = SimpleController()
     rclpy.spin(noisy_controller)
     
     noisy_controller.destroy_node()

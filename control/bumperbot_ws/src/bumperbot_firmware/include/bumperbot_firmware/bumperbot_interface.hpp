@@ -9,6 +9,7 @@
 
 #include <vector>
 #include <string>
+#include <sstream>
 
 namespace bumperbot_firmware
 {
@@ -21,19 +22,19 @@ class BumperbotInterface : public hardware_interface::SystemInterface
         BumperbotInterface();
         virtual ~BumperbotInterface();
 
-        virtual CallbackReturn on_activate(const rclcpp_lifecycle::State &) override;
+        virtual CallbackReturn on_activate(const rclcpp_lifecycle::State &previous_state) override;
 
-        virtual CallbackReturn on_deactivate(const rclcpp_lifecycle::State &) override;
+        virtual CallbackReturn on_deactivate(const rclcpp_lifecycle::State &previous_state) override;
 
-        virtual CallbackReturn on_init(const hardware_interface::HardwareInfo &hardware_info) override;
+        virtual CallbackReturn on_init(const hardware_interface::HardwareInfo & hardware_info) override;
 
         virtual std::vector<hardware_interface::StateInterface> export_state_interfaces() override;
 
         virtual std::vector<hardware_interface::CommandInterface> export_command_interfaces() override;
 
-        virtual hardware_interface::return_type read(const rclcpp::Time &, const rclcpp::Duration &) override;
+        virtual hardware_interface::return_type read(const rclcpp::Time & time, const rclcpp::Duration & period) override;
 
-        virtual hardware_interface::return_type write(const rclcpp::Time &, const rclcpp::Duration &) override;
+        virtual hardware_interface::return_type write(const rclcpp::Time & time, const rclcpp::Duration & period) override;
 
     private:
         LibSerial::SerialPort arduino_;
