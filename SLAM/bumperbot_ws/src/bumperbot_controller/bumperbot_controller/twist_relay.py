@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import rclpy
-from rclpy import Node
+from rclpy.node import Node
 from geometry_msgs.msg import Twist, TwistStamped
 
 class TwistRelay(Node):
@@ -10,10 +10,13 @@ class TwistRelay(Node):
 
         self.controller_sub = self.create_subscription(
             Twist, "/bumperbot_controller/cmd_vel_unstamped", 
-            self.controller_twist_callback, 10)
+            self.controller_twist_callback, 
+            10)
         
         self.controller_pub = self.create_publisher(
-            TwistStamped, "/bumperbot_controller/cmd_vel", 10)#
+            TwistStamped, 
+            "/bumperbot_controller/cmd_vel", 
+            10)
         
         self.joy_sub = self.create_subscription(
             TwistStamped,
