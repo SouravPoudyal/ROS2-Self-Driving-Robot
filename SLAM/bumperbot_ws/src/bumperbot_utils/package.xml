@@ -17,6 +17,7 @@
   <doc_depend>std_msgs</doc_depend>
   <doc_depend>sensor_msgs</doc_depend>
   <depend>twist_mux_msgs</depend>
+  <depend>visualization_msgs</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
