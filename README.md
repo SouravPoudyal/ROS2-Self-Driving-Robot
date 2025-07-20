@@ -10,3 +10,6 @@
 
 #Angular velocit about z-axis
 <img src="assets/angular_velocity_z_filter_value.png" width="750">
+
+#SLAM
+<img src="assets/SLAM_Loop_closer.png" width="750">
